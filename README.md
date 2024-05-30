@@ -40,11 +40,11 @@ Firstly, upload the results csv into the same folder as the notebook.
 
 The only part that needs to be configured is the config variable, which contains:
 
-`design_eval_start_date`: start of the period used for correlation
-`design_eval_end_date`: end of the period used for correlation
-`test_start_date`: start of the period for the intervention
-`test_end_date`: end of the period for the intervention
-`cooldown_end_date`: typically the last day of the dataset, otherwise the last day of the effects after stopping the intervention
-`pairs_include`: pairs that should be used for the analysis
-`file_name`: full name of the csv, no paths
-`response_name`: used for the visuals
+- `design_eval_start_date`: start of the period used for correlation
+- `design_eval_end_date`: end of the period used for correlation
+- `test_start_date`: start of the period for the intervention
+- `test_end_date`: end of the period for the intervention
+- `cooldown_end_date`: typically the last day of the dataset, otherwise the last day of the effects after stopping the intervention
+- `pairs_include`: pairs that should be used for the analysis
+- `file_name`: full name of the csv, no paths
+- `response_name`: used for the visuals
